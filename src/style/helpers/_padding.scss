@@ -24,7 +24,7 @@ $padding-x-p: 10;
       padding-right: percentage($i/100);
     }
   }
-  @for $i from 0 to 100 {
+  @for $i from 0 to 150 {
     .py#{$i} {
       padding-top: #{$i}px;
       padding-bottom: #{$i}px;

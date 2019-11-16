@@ -1,0 +1,32 @@
+.main-sect-one {
+  display: flex;
+  align-items: center;
+
+  .sect-title {
+    font-family: "Exo-Meduim", sans-serif;
+    h5{
+      font-size: 16px;
+      color: $pink;
+      text-transform: uppercase;
+    }
+    span {
+      color: $pink;
+    }
+    h2 {
+      font-size: 40px;
+    }
+  }
+
+  .sect-body {
+    font-family: "Exo-Meduim", sans-serif;
+    p{
+      font-size: 16px;
+      color: $section-body;
+    }
+  }
+}
+
+
+
+
+@import "../section2/section2";
