@@ -1,0 +1,40 @@
+.main-sect-four {
+
+
+  .photo {
+    height: 76px;
+    width: 76px;
+    border: 2px solid $black;
+    background-color: $bg-photo;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .name {
+    font-family: "Exo-Meduim", sans-serif;
+    h6{
+      font-size: 22px;
+      color: $white;
+    }
+  }
+
+  .prof{
+    font-family: "Exo-Meduim", sans-serif;
+    p{
+      font-size: 16px;
+      color: $pink;
+    }
+  }
+
+  .profile{
+    font-family: "ExoItalic-Regular", sans-serif;
+    p{
+      font-size: 16px;
+      color: $section-body;
+    }
+  }
+
+
+
+}
