@@ -1,0 +1,60 @@
+.main-sect-six {
+  background-color: $sect-six;
+
+  .sect-title {
+    font-family: "Exo-Meduim", sans-serif;
+    h6{
+      font-size: 16px;
+      color: $pink;
+    }
+    h2 {
+      font-size: 40px;
+      color: $white;
+    }
+  }
+
+  .input-div {
+    font-family: "Exo-Meduim", sans-serif;
+    input{
+      padding: 17px 5px 17px 28px;
+      color: $white;
+      background-color: $input-bg;
+      border: 1px solid $input-border;
+      border-radius: 3px;
+      width: 100%;
+    }
+  }
+
+  .button-six {
+    text-align: center;
+    position: relative;
+  }
+
+  .arrow {
+    position: absolute;
+    top: -50px;
+  }
+
+  .form-button {
+    font-family: "Exo-Meduim", sans-serif;
+    color: $white;
+    font-size: 16px;
+    padding: 18px 80px;
+    background-color: $accent-pink;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .copy{
+    font-family: "Exo-Regular", sans-serif;
+    text-align: center;
+    p {
+      color: $section-body;
+    }
+    span {
+      text-decoration: underline;
+    }
+  }
+
+}
