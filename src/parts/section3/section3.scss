@@ -1,0 +1,26 @@
+.main-sect-three {
+
+  .sect-three-title {
+    font-family: "Exo-Meduim", sans-serif;
+    span {
+      color: $pink;
+    }
+    h5 {
+      color: $pink;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+    h2 {
+      font-size: 40px;
+    }
+  }
+
+  .body-p {
+    font-family: "Exo-Meduim", sans-serif;
+    p {
+      color: $section-body;
+      font-size: 16px;
+    }
+  }
+
+}
