@@ -1,17 +1,29 @@
 .main-sect-one {
-  display: flex;
-  align-items: center;
+  position: relative;
+
+  .img-sect {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-position: right;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
   .sect-title {
     font-family: "Exo-Meduim", sans-serif;
-    h5{
+
+    h5 {
       font-size: 16px;
       color: $pink;
       text-transform: uppercase;
     }
+
     span {
       color: $pink;
     }
+
     h2 {
       font-size: 40px;
     }
@@ -19,14 +31,70 @@
 
   .sect-body {
     font-family: "Exo-Meduim", sans-serif;
-    p{
+
+    p {
       font-size: 16px;
       color: $section-body;
     }
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .main-sect-one {
+    .img-sect {
+      background-size: cover;
+    }
 
+    .container {
+      padding-top: 120px !important;
+      padding-bottom: 100px !important;
+    }
+
+    .wrapper {
+      padding-right: 0 !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-sect-one {
+    .container {
+      padding-top: 50px !important;
+      padding-bottom: 35px !important;
+    }
+
+    .sect-title {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .main-sect-one {
+    .sect-title {
+      h2 {
+        font-size: 22px;
+      }
+    }
+    .sect-body {
+      p {
+        color: $black;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main-sect-one {
+    .container {
+      padding-top: 22px !important;
+      padding-bottom: 5px !important;
+    }
+  }
+}
 
 
 @import "../section2/section2";
