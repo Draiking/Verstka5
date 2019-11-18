@@ -58,3 +58,50 @@
   }
 
 }
+
+
+@media only screen and (max-width : 1200px) {
+  .main-sect-six {
+    .one-container {
+      padding-top: 50px;
+    }
+    .two-container {
+      padding-top: 40px;
+    }
+    .input-div {
+      input {
+        margin-bottom: 10px;
+      }
+    }
+    .arrow {
+      display: none;
+    }
+    .copy {
+      padding-top: 20px;
+      padding-bottom: 25px;
+    }
+    .button-six {
+      padding-top: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width : 780px) {
+  .main-sect-six {
+    .one-container {
+      padding-top: 30px;
+    }
+    .sect-title {
+      h2 {
+        font-size: 30px;
+      }
+    }
+    .two-container {
+      padding-top: 15px;
+    }
+    .copy {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
