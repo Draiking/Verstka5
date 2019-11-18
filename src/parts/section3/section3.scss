@@ -24,3 +24,37 @@
   }
 
 }
+
+
+@media only screen and (max-width : 1200px) {
+  .main-sect-three {
+    .sect-three-title {
+      padding-top: 0;
+    }
+  }
+}
+
+
+@media only screen and (max-width : 992px) {
+  .main-sect-three {
+    text-align: center;
+    .container {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .three-macbook {
+      display: none;
+    }
+    .sect-three-title {
+      h2 {
+        font-size: 34px;
+      }
+    }
+    .body-p {
+      p{
+        color: $black;
+        font-size: 15px;
+      }
+    }
+  }
+}
