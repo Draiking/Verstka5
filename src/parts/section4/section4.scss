@@ -35,6 +35,31 @@
     }
   }
 
+}
 
+@media only screen and (max-width : 992px) {
+  .main-sect-four {
+    .one-container {
+      padding-top: 50px;
+    }
+    .two-container {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+}
 
+@media only screen and (max-width : 480px) {
+  .main-sect-four{
+    .partners {
+      display: none;
+    }
+    .two-container {
+      padding: 0;
+    }
+    .one-container {
+      padding-right: 30px;
+      padding-bottom: 20px;
+    }
+  }
 }
