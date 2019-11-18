@@ -3,7 +3,6 @@
   .sect-two-title {
     font-family: "Exo-Meduim", sans-serif;
     text-align: center;
-    padding-top: 137px;
     h5{
       font-size: 16px;
       color: $pink;
@@ -32,5 +31,9 @@
       color: $section-body;
     }
   }
+
+}
+
+@media only screen and (max-width : 1200px) {
 
 }
