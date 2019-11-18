@@ -1,6 +1,4 @@
 .main-head {
-  height: 813px;
-  width: 100%;
 
   .head-col {
     padding: 0 165px 0 165px;
@@ -10,13 +8,14 @@
   .head-title {
     font-family: "Exo-Thin", sans-serif;
     text-align: center;
+
     h2 {
       font-size: 60px;
       margin: 0;
     }
   }
 
-  .head-center{
+  .head-center {
     text-align: center;
   }
 
@@ -25,6 +24,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
     span {
       color: $span-header;
       font-size: 14px;
@@ -39,4 +39,56 @@
     text-transform: uppercase;
   }
 
+}
+
+@media only screen and (max-width: 1200px) {
+  .main-head {
+    .container {
+      padding-top: 0 !important;
+      padding-bottom: 100px !important;
+    }
+
+    .head-title {
+      h2 {
+        font-size: 42px;
+      }
+    }
+
+    .head-center {
+      padding-top: 30px!important;
+    }
+
+    .head-bottom {
+      padding-top: 35px!important;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .main-head {
+
+    .container {
+      padding-bottom: 60px!important;
+    }
+
+    .head-title {
+      padding-top: 30px!important;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-head {
+    .head-title {
+      h2 {
+        font-size: 26px;
+      }
+    }
+
+    .head-col {
+      padding: 0;
+    }
+  }
 }
