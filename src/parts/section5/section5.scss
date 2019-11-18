@@ -24,3 +24,47 @@
   }
 
 }
+
+
+@media only screen and (max-width : 1200px) {
+  .main-sect-five {
+    .container {
+      padding-top: 55px;
+    }
+    .five-title {
+      padding-bottom: 70px;
+    }
+  }
+}
+
+
+
+@media only screen and (max-width : 992px) {
+  .main-sect-five {
+    .five-title {
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 35px;
+    }
+    .five-img {
+      display: none;
+    }
+    .container {
+      padding-top: 35px;
+    }
+  }
+}
+
+
+@media only screen and (max-width : 480px) {
+  .main-sect-five {
+      .five-title {
+        h2 {
+          font-size: 30px;
+        }
+        p {
+          padding: 0;
+        }
+      }
+  }
+}
