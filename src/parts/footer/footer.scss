@@ -1,0 +1,119 @@
+.main-footer {
+  background-color: $white;
+  position: relative;
+
+  .footer-arrow {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-position: right;
+    width: 100%;
+    background-size: contain;
+  }
+
+  .company-logo {
+    height: 48px;
+    background-size: auto;
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+
+  .footer-company {
+    font-family: "Exo-Meduim", sans-serif;
+    font-size: 14px;
+    color: $section-body;
+  }
+
+  .support {
+    font-family: "Exo-Regular", sans-serif;
+    font-size: 14px;
+
+    h4 {
+      font-family: "Exo-Meduim", sans-serif;
+      font-size: 22px;
+    }
+
+    a {
+      color: $section-body;
+      display: block;
+      transition: all .3s ease;
+
+      &:hover {
+        color: $pink;
+        transition: all .3s ease;
+      }
+    }
+  }
+
+  .about {
+    font-family: "Exo-Regular", sans-serif;
+    font-size: 14px;
+
+    h4 {
+      font-family: "Exo-Meduim", sans-serif;
+      font-size: 22px;
+    }
+
+    a {
+      color: $section-body;
+      display: block;
+      transition: all .3s ease;
+
+      &:hover {
+        color: $pink;
+        transition: all .3s ease;
+      }
+    }
+  }
+
+  .newsletter {
+    font-family: "Exo-Regular", sans-serif;
+    font-size: 16px;
+
+    h4 {
+      font-family: "Exo-Meduim", sans-serif;
+      font-size: 22px;
+    }
+
+    input {
+      padding: 10px 5px 10px 28px;
+      color: $white;
+      background-color: $input-footer;
+      border: 1px solid $input-border;
+      border-radius: 3px;
+    }
+  }
+
+  .footer-button-air {
+    padding: 11px 15px;
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    right: 49px;
+    background-color: $pink;
+    box-shadow: 0 3px 5px 0 $black;
+  }
+
+  .fa-paper-plane {
+    color: $white;
+  }
+
+  .social-footer {
+    padding-top: 22px;
+    padding-left: 40px;
+    a {
+      color: $section-body;
+      transition: all .3s ease;
+      padding-right: 10px;
+      &:hover {
+        transition: all .3s ease;
+        color: $pink;
+      }
+      &:last-child{
+        padding-right: 0;
+      }
+    }
+  }
+
+
+}
