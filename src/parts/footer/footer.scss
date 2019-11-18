@@ -114,6 +114,38 @@
       }
     }
   }
+}
+
+@media only screen and (max-width : 992px) {
+  .main-footer {
+    .about {
+      padding-top: 20px;
+    }
+    .newsletter {
+      padding-top: 20px;
+    }
+  }
+}
 
 
+@media only screen and (max-width : 768px) {
+  .main-footer {
+    .container {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .support {
+      padding-top: 20px;
+    }
+    .mass-news{
+      padding-bottom: 0;
+    }
+    .social-footer {
+      padding-left: 0;
+      padding-top: 15px;
+    }
+    .footer-arrow {
+      background-size: cover;
+    }
+  }
 }
